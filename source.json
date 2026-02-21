@@ -1,0 +1,106 @@
+{
+  "name": "crystall1ne.dev",
+  "subtitle": "The source for everything crystall1nedev.",
+  "description": "Apps from the crystall1nedev and AngelAuraMC universes, now on Alt and SideStore.",
+  "iconURL": "https://crystall1ne.dev/media/the_icon.png",
+  "website": "https://crystall1ne.dev",
+  "patreonURL": "https://patreon.com/crystall1nedev",
+  "tintColor": "#99140b",
+  "featuredApps": [
+    "net.kdt.pojavlauncher",
+    "org.angelauramc.amethyst"
+  ],
+  "headerURL": "https://crystall1ne.dev/media/the_point.png",
+  "apps": [
+    {
+      "name": "Angel Aura Amethyst",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "marketplaceID": "",
+      "developerName": "AngelAuraMC",
+      "subtitle": "Bringing Minecraft: Java Edition to mobile devices.",
+      "localizedDescription": "Angel Aura Amethyst is a Minecraft: Java Edition launcher for iOS based on the PojavLauncher project.\n\n• Play most versions of Minecraft, from the very first beta to the latest snapshots.\n• Customize with mods, resource packs, and compatible shaders\n• Create multiple instances of Minecraft for multiple versions\n• Adjust on-screen controls to your liking, or use keyboard and mouse or controllers\n• Play online with full Java Edition servers\n...and so much more!\n\nNotice: Amethyst requires JIT to function correctly. This application automatically enables JIT with AltServer, TrollStore, or when jailbroken, however other methods can be used if required.",
+      "iconURL": "https://raw.githubusercontent.com/AngelAuraMC/Amethyst-iOS/main/Natives/Assets.xcassets/AppIcon-Light.appiconset/1024x1024.png",
+      "tintColor": "#9649B8",
+      "category": "games",
+      "screenshots": {
+        "iphone": [
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"
+          }
+        ],
+        "ipad": [
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG"
+          },
+          {
+            "width": 2796,
+            "height": 1290,
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2023-05-06T17:00:00-05:00",
+          "localizedDescription": "Amethyst's 1.0 beta, built on PojavLauncher 3.0.",
+          "downloadURL": "https://ci.angelauramc.dev/job/Amethyst-iOS/lastSuccessfulBuild/artifact/artifacts/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 108175347,
+          "buildVersion": null,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.private.security.container-required",
+          "com.apple.private.mobileinstall.upgrade-enabled",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage.AppDataContainers",
+          "com.apple.private.security.storage.MobileDocuments",
+          "com.apple.security.iokit-user-client-class",
+          "platform-application",
+          "get-task-allow",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.private.memorystatus",
+          "local.sandboxed-jit"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Amethyst uses the local network to find and communicate with AltServer and LAN servers.",
+          "NSMicrophoneUsageDescription": "Amethyst uses the microphone to enable support for voice chat mods."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
