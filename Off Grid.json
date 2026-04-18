@@ -11,6 +11,7 @@
       "name": "Off Grid",
       "bundleIdentifier": "ai.offgridmobile",
       "developerName": "Off Grid",
+      "localizedDescription": "Run large language models, generate images, and transcribe speech fully offline.",
       "iconURL": "https://raw.githubusercontent.com/alichherawalla/off-grid-mobile/main/ios/OffgridMobile/Images.xcassets/AppIcon.appiconset/icon.png",
 
       "versions": [
@@ -18,6 +19,7 @@
           "version": "0.0.42",
           "buildVersion": "42",
           "date": "2026-02-14",
+          "localizedDescription": "Update to v0.0.42",
           "downloadURL": "https://github.com/alichherawalla/off-grid-mobile/releases/download/v0.0.42/OffgridMobile-v0.0.42.ipa",
           "size": 13056961,
           "minOSVersion": "15.0"
