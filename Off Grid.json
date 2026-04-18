@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "name": "Off Grid",
   "subtitle": "On-device AI apps",
-  "description": "Run LLMs, generate images, and transcribe speech fully offline.",
+  "description": "AltStore source for Off Grid — run LLMs, generate images, and transcribe speech entirely on-device.",
   "iconURL": "https://raw.githubusercontent.com/alichherawalla/off-grid-mobile/main/ios/OffgridMobile/Images.xcassets/AppIcon.appiconset/icon.png",
+  "website": "https://github.com/alichherawalla/off-grid-mobile",
   "tintColor": "#6156e2",
+
+  "featuredApps": [
+    "ai.offgridmobile"
+  ],
 
   "apps": [
     {
       "name": "Off Grid",
       "bundleIdentifier": "ai.offgridmobile",
       "developerName": "Off Grid",
-      "localizedDescription": "Run large language models, generate images, and transcribe speech fully offline.",
+      "subtitle": "On-device AI",
+      "localizedDescription": "Run large language models, generate images with Stable Diffusion, and transcribe speech with Whisper — all on-device, fully offline, no cloud required.",
       "iconURL": "https://raw.githubusercontent.com/alichherawalla/off-grid-mobile/main/ios/OffgridMobile/Images.xcassets/AppIcon.appiconset/icon.png",
+      "tintColor": "#000000",
+      "category": "other",
+      "screenshots": [],
 
       "versions": [
         {
@@ -23,8 +32,24 @@
           "downloadURL": "https://github.com/alichherawalla/off-grid-mobile/releases/download/v0.0.42/OffgridMobile-v0.0.42.ipa",
           "size": 13056961,
           "minOSVersion": "15.0"
+        },
+        {
+          "version": "0.0.32",
+          "buildVersion": "32",
+          "date": "2026-02-14",
+          "localizedDescription": "Initial AltStore release.",
+          "downloadURL": "https://github.com/alichherawalla/off-grid-mobile/releases/latest/download/OffgridMobile.ipa",
+          "size": 13000000,
+          "minOSVersion": "15.0"
         }
-      ]
+      ],
+
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
-  ]
+  ],
+
+  "news": []
 }
